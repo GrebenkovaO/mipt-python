@@ -4,10 +4,24 @@
 
 __Автор:__ Мурат Апишев ([facebook](https://www.facebook.com/great.mel), [machinelearning.ru](http://www.machinelearning.ru/wiki/index.php?title=Участник:Mapishev))
 
+__Правила курса__:
 
-<h2>Неделя 1: Введение в язык программирования Python</h2>
+- Курс проводится в формате "лекции + практические задания"
+- Зачёт по курсу выставляется по результатам выполнения заданий
+- Для доступа к зачёту необходимо выполнить __все__ практические задания и получить за них в сумме __не менее 35 баллов__. Форма самого зачёта будет определена в дальнейшем, для гарантированного получения зачёта автоматом нужно набрать в сумме __не менее 45 баллов__.
 
-<h4>Содержание занятия:</h4>
+<h4>Формулировки практических заданий:</h4>
+
+- [Задание 1](https://github.com/MelLain/mipt-python/blob/master/tasks/mel-lain-mipt-python-task-intro.ipynb)
+- [Задание 2](https://github.com/MelLain/mipt-python/blob/master/tasks/mel-lain-mipt-python-task-oop.ipynb)
+
+<h4>Результаты выполнения практических заданий:</h4>
+
+- [Задание 1](https://docs.google.com/spreadsheets/d/1xnf1n7dusbb_k_USNXhCHTvQxmhcNIgyX6LaluCg2ek/edit?usp=sharing)
+
+<h2>Занятие 1: Введение в язык программирования Python</h2>
+
+<h4>Содержание:</h4>
 
 - мотивация изучения языка
 - язык Python, история, особенности, сравнение с другими языками
@@ -31,9 +45,9 @@ __Автор:__ Мурат Апишев ([facebook](https://www.facebook.com/gre
 - [PDF](https://github.com/MelLain/mipt-python/blob/master/lectures/pdf/mel-lain-mipt-python-intro.pdf)
 - [Jupyter Notebook](https://github.com/MelLain/mipt-python/blob/master/lectures/src/mel-lain-mipt-python-intro.ipynb)
 
-<h2>Неделя 2: Модель памяти, операции над встроенными типами данных</h2>
+<h2>Занятие 2: Модель памяти, операции над встроенными типами данных</h2>
 
-<h4>Содержание занятия:</h4>
+<h4>Содержание:</h4>
 
 - стадии жизни объекта
 - сборщик мусора, циклические и слабые ссылки, гарантии
@@ -54,9 +68,9 @@ __Автор:__ Мурат Апишев ([facebook](https://www.facebook.com/gre
 - [PDF](https://github.com/MelLain/mipt-python/blob/master/lectures/pdf/mel-lain-mipt-python-types.pdf)
 - [Jupyter Notebook](https://github.com/MelLain/mipt-python/blob/master/lectures/src/mel-lain-mipt-python-types.ipynb)
 
-<h2>Неделя 3: Пользовательские и встроенные функции, итераторы и генераторы</h2>
+<h2>Занятие 3: Пользовательские и встроенные функции, итераторы и генераторы</h2>
 
-<h4>Содержание занятия: </h4>
+<h4>Содержание: </h4>
 
 - функции range, zip, enumerate
 - базовый синтаксис функций, возвращаемое значение, рекурсия
@@ -75,15 +89,15 @@ __Автор:__ Мурат Апишев ([facebook](https://www.facebook.com/gre
 - [PDF](https://github.com/MelLain/mipt-python/blob/master/lectures/pdf/mel-lain-mipt-python-functions.pdf)
 - [Jupyter Notebook](https://github.com/MelLain/mipt-python/blob/master/lectures/src/mel-lain-mipt-python-functions.ipynb)
 
-<h2>Неделя 4: Основы ООП, особенности ООП в Python</h2>
+<h2>Занятие 4: Основы ООП, особенности ООП в Python</h2>
 
-<h4>Содержание занятия: </h4>
+<h4>Содержание: </h4>
 
 - парадигма объектно-ориентированного программирования
 - понятия класса, объекта класса
 - понятия интерфейса и абстрактного класса
 - особенности реализации принципов ООП в Python
-- методы __init__ и __new__, параметр self
+- методы \_\_init\_\_ и \_\_new\_\_, параметр self
 - методы и атрибуты, функции для работы с атрибутами
 - магические методы классов, их перегрузка, менеджеры контекста
 - наследование
@@ -97,5 +111,61 @@ __Автор:__ Мурат Апишев ([facebook](https://www.facebook.com/gre
 - [PDF](https://github.com/MelLain/mipt-python/blob/master/lectures/pdf/mel-lain-mipt-python-classes.pdf)
 - [Jupyter Notebook](https://github.com/MelLain/mipt-python/blob/master/lectures/src/mel-lain-mipt-python-classes.ipynb)
 
-<h2>Неделя 5: ToDo</h2>
+<h2>Занятие 5: Продвинутое использование ООП, проектирование кода</h2>
 
+<h4>Содержание: </h4>
+
+- проектирование кода
+- виды отношений между классами
+- принципы SOLID
+- пример применения принципов для улучшения кода
+- множественное наследование, порядок распознавания методов
+- вызов родительских методов, функция super
+- статические методы классов
+- понятие шаблона проектирования
+- шаблон singleton
+- шаблон mixin
+- шаблоны фасад, адаптер, DAO
+- понятие фабрики, шаблон простая фабрика
+- шаблоны фабричный метод и абстрактная фабрика
+- шаблон декоратор
+- декораторы функций и классов в Python
+- метаклассы в Python
+
+<h4>Ссылки на лекцию:</h4>
+
+- [PDF](https://github.com/MelLain/mipt-python/blob/master/lectures/pdf/mel-lain-mipt-python-design.pdf)
+- [Jupyter Notebook](https://github.com/MelLain/mipt-python/blob/master/lectures/src/mel-lain-mipt-python-design.ipynb)
+
+<h2>Занятие 6: Представление, обработка, анализ и визуализация данных</h2>
+
+<h4>Содержание: </h4>
+
+- представление плотных матриц в Python, базовые операции
+- библиотека numpy, описание
+- методы создания массива numpy.ndarray
+- классы ndarray и matrix
+- изменение размерности массивов
+- индексирование массовов
+- арфметические операции над массивами, broadcasting
+- матричные операции над массивами, сравнение с наивной реализацией
+- агрегирующие функции
+- конкатенация массивов
+- примеры дополнительных полезные функции numpy
+- примеры постановок и решений задач на векторные и матричные операции
+- DataFrame в библиотеке pandas
+- доступ к элементам, индесирование
+- pandas.DataSeries, операции над столбцами, выборка по условию
+- создание и редактирование DataFrame, итерирование, конкатенация
+- примеры полезных атрибутов и функций DataFrame
+- базовая визуализация на основе DataFrame
+- библиотека Matplotlib
+- простейшие графики в matplotlib, форматирование
+- диаграммы scatter для отображения двумерной выборки
+
+<h4>Ссылки на лекцию:</h4>
+
+- [PDF](https://github.com/MelLain/mipt-python/blob/master/lectures/pdf/mel-lain-mipt-python-data.pdf)
+- [Jupyter Notebook](https://github.com/MelLain/mipt-python/blob/master/lectures/src/mel-lain-mipt-python-data.ipynb)
+
+<h2>Занятие 7: ToDo</h2>
